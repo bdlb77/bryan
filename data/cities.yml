@@ -1,0 +1,24 @@
+# cities.yml
+Berlin:
+  name: Berlin
+  address: "Rudi-Dutschke-Straße 26, 10969 Berlin"
+
+Paris:
+  name: Paris
+  address: "16, villa Gaudelet, 75011 Paris"
+
+London:
+  name: London
+  address: "32 Kingsland Road, 29145 London"
+
+Tokyo:
+  name: Tokyo
+  address: "15 Kawasaki Street, 87590 Tokyo"
+
+Shanghai:
+  name: Shanghai
+  address: "8752 Shaolin Fengshi, 56289 Shanghai"
+
+Rio:
+  name: Rio
+  address: "24759 Boa Sorte, 29185 Rio De Jenairo"
