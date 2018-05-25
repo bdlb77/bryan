@@ -1,15 +1,17 @@
 <div id="about">
-	<ul class="list-inline text-center">
-	  <% ["bdlb77", "rhosyn", "jasonhbegleiter"].each do |gh_username| %>
-	    <li>
-	      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
-	      <p>
-          <% link_to "https://github.com/#{gh_username}",target:"_blank" do %>
-            <i class="fa fa-github"></i>
+  <div class="container">
+    <ul class="list-inline text-center">
+      <% ["bdlb77", "rhosyn", "jasonhbegleiter","claramorgen"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+          <p>
+            <% link_to "https://github.com/#{gh_username}",target:"_blank" do %>
+              <i class="fa fa-github"></i>
               <%= gh_username.capitalize %>
-          <% end %>
-        </p>
-	    </li>
-	  <% end %>
-	</ul>
+            <% end %>
+          </p>
+        </li>
+      <% end %>
+    </ul>
+  </div>
 </div>
